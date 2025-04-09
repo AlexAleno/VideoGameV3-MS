@@ -1,6 +1,6 @@
 package com.champsoft.purchasemanagement.Presentation;
 
-import com.example.videogamev3.PurchaseManagement.BusinessLogic.OrderService;
+import com.champsoft.purchasemanagement.BusinessLogic.OrderService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

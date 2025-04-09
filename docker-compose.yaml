@@ -1,9 +1,9 @@
 version: '3.6'
 
 services:
-  customers-service:
-    build: customers-service
-    hostname: customerssservicehost
+  UserManagement:
+    build: UserManagement
+    hostname: usermanagementhost
     ports:
       - "8081:8080"
     environment:
@@ -15,7 +15,7 @@ services:
   mysql1:
     image: 'mysql:latest'
     environment:
-      - 'MYSQL_DATABASE=customers-db'
+      - 'MYSQL_DATABASE=users-db'
       - 'MYSQL_USER=user'
       - 'MYSQL_PASSWORD=pwd'
       - 'MYSQL_ROOT_PASSWORD=verysecretpwd'
@@ -27,10 +27,10 @@ services:
       timeout: 5s
       retries: 10
 
-  employees-service:
+  DownloadManagement:
     #    build: employees-service
-    build: employees-service
-    hostname: employeeservicehost
+    build: DownloadManagement
+    hostname: downloadmanagementhost
     ports:
       - "8082:8080"
     environment:
@@ -42,7 +42,7 @@ services:
   mysql2:
     image: 'mysql:latest'
     environment:
-      - 'MYSQL_DATABASE=employees-db'
+      - 'MYSQL_DATABASE=download-db'
       - 'MYSQL_USER=user'
       - 'MYSQL_PASSWORD=pwd'
       - 'MYSQL_ROOT_PASSWORD=verysecretpwd'
@@ -55,9 +55,9 @@ services:
       retries: 10
 
 
-  inventories-service:
-    build: inventories-service
-    hostname: inventoryservicehost
+  GameManagement:
+    build: GameManagement
+    hostname: gamemanagementhost
     ports:
       - "8083:8080"
     environment:
@@ -70,7 +70,7 @@ services:
   mysql3:
     image: 'mysql:latest'
     environment:
-      - 'MYSQL_DATABASE=inventories-db'
+      - 'MYSQL_DATABASE=games-db'
       - 'MYSQL_USER=user'
       - 'MYSQL_PASSWORD=pwd'
       - 'MYSQL_ROOT_PASSWORD=verysecretpwd'
@@ -82,9 +82,9 @@ services:
       timeout: 5s
       retries: 10
 
-  sales-service:
-    build: sales-service
-    hostname: salesservicehost
+  PurchaseManagement:
+    build: PurchaseManagement
+    hostname: purchasemanagementhost
     ports:
       - "8084:8080"
     environment:
@@ -97,7 +97,7 @@ services:
   mysql4:
     image: 'mysql:latest'
     environment:
-      - 'MYSQL_DATABASE=sales-db'
+      - 'MYSQL_DATABASE=purchase-db'
       - 'MYSQL_USER=user'
       - 'MYSQL_PASSWORD=pwd'
       - 'MYSQL_ROOT_PASSWORD=verysecretpwd'

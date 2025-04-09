@@ -1,11 +1,12 @@
 package com.champsoft.usermanagement.BusinessLogic;
 
-import com.example.videogamev3.UserManagement.DataAccess.User;
-import com.example.videogamev3.UserManagement.DataAccess.UserRepository;
-import com.example.videogamev3.UserManagement.DataMapper.UserRequestMapper;
-import com.example.videogamev3.UserManagement.DataMapper.UserResponseMapper;
-import com.example.videogamev3.UserManagement.Presentation.UserRequestModel;
-import com.example.videogamev3.UserManagement.Presentation.UserResponseModel;
+
+import com.champsoft.usermanagement.DataAccess.User;
+import com.champsoft.usermanagement.DataAccess.UserRepository;
+import com.champsoft.usermanagement.DataMapper.UserRequestMapper;
+import com.champsoft.usermanagement.DataMapper.UserResponseMapper;
+import com.champsoft.usermanagement.Presentation.UserRequestModel;
+import com.champsoft.usermanagement.Presentation.UserResponseModel;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

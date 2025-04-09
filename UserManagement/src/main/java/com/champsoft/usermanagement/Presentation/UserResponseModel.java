@@ -1,7 +1,7 @@
 package com.champsoft.usermanagement.Presentation;
 
-import com.example.videogamev3.GameManagement.DataAccess.Game;
-import com.example.videogamev3.PurchaseManagement.DataAccess.Order;
+import com.champsoft.gamemanagement.DataAccess.Game;
+import jakarta.persistence.criteria.Order;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

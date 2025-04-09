@@ -1,6 +1,7 @@
 package com.champsoft.usermanagement.Presentation;
 
-import com.example.videogamev3.UserManagement.BusinessLogic.UserService;
+
+import com.champsoft.usermanagement.BusinessLogic.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,7 @@
 package com.champsoft.purchasemanagement.DataAccess;
 
 
-import com.example.videogamev3.UserManagement.DataAccess.User;
+
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

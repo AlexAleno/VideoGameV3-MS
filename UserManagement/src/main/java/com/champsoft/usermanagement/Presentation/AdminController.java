@@ -1,8 +1,7 @@
 package com.champsoft.usermanagement.Presentation;
 
-import com.example.videogamev3.UserManagement.BusinessLogic.AdminService;
-import com.example.videogamev3.UserManagement.Presentation.AdminRequestModel;
-import com.example.videogamev3.UserManagement.Presentation.AdminResponseModel;
+
+import com.champsoft.usermanagement.BusinessLogic.AdminService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

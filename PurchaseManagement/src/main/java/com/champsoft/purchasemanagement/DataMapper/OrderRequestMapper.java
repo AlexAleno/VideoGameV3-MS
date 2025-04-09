@@ -1,10 +1,11 @@
 package com.champsoft.purchasemanagement.DataMapper;
 
 
-import com.example.videogamev3.PurchaseManagement.DataAccess.Order;
-import com.example.videogamev3.PurchaseManagement.DataAccess.OrderId;
-import com.example.videogamev3.PurchaseManagement.Presentation.OrderRequestModel;
-import com.example.videogamev3.UserManagement.DataAccess.UserId;
+
+import com.champsoft.purchasemanagement.DataAccess.Order;
+import com.champsoft.purchasemanagement.DataAccess.OrderId;
+import com.champsoft.purchasemanagement.Presentation.OrderRequestModel;
+import com.champsoft.usermanagement.DataAccess.UserId;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

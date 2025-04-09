@@ -1,8 +1,9 @@
 package com.champsoft.usermanagement.DataMapper;
 
-import com.example.videogamev3.UserManagement.DataAccess.Admin;
-import com.example.videogamev3.UserManagement.DataAccess.AdminId;
-import com.example.videogamev3.UserManagement.Presentation.AdminResponseModel;
+
+import com.champsoft.usermanagement.DataAccess.Admin;
+import com.champsoft.usermanagement.DataAccess.AdminId;
+import com.champsoft.usermanagement.Presentation.AdminResponseModel;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

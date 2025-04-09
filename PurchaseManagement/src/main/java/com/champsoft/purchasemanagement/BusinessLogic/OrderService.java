@@ -1,12 +1,13 @@
 package com.champsoft.purchasemanagement.BusinessLogic;
 
-import com.example.videogamev3.GameManagement.DataAccess.Game;
-import com.example.videogamev3.PurchaseManagement.DataAccess.Order;
-import com.example.videogamev3.PurchaseManagement.DataAccess.OrderRepository;
-import com.example.videogamev3.PurchaseManagement.DataMapper.OrderRequestMapper;
-import com.example.videogamev3.PurchaseManagement.Presentation.OrderRequestModel;
-import com.example.videogamev3.UserManagement.DataAccess.User;
+
+import com.champsoft.gamemanagement.DataAccess.Game;
+import com.champsoft.purchasemanagement.DataAccess.Order;
+import com.champsoft.purchasemanagement.DataAccess.OrderRepository;
+import com.champsoft.purchasemanagement.DataMapper.OrderRequestMapper;
+import com.champsoft.purchasemanagement.Presentation.OrderRequestModel;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.catalina.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
